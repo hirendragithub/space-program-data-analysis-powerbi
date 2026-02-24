@@ -52,7 +52,8 @@ This page provides high-level KPIs such as:
 
 It gives a quick snapshot of global space mission performance.
 
-![Executive Overview](screenshots/executive_overview.png)
+![Executive Overview](
+<img width="1413" height="793" alt="Screenshot 2026-02-23 201348" src="https://github.com/user-attachments/assets/712cdfcc-92da-44b8-82e3-cd8ccfef6592" />)
 
 ---
 
@@ -177,23 +178,6 @@ space-program-data-analysis-powerbi/
 
 <img width="1413" height="793" alt="Screenshot 2026-02-23 201348" src="https://github.com/user-attachments/assets/712cdfcc-92da-44b8-82e3-cd8ccfef6592" />
 
-🚀 How to Use
-
-Download the .pbix file.
-
-Open it in Power BI Desktop.
-
-Interact with filters and slicers to explore insights.
-
-🎯 Skills Demonstrated
-
-Data Cleaning
-
-Handling Missing Values
-
-Time-Based Analysis
-
-KPI Development
 
 Business Insight Generation
 
