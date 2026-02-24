@@ -69,6 +69,7 @@ This section compares space organizations based on:
 This helps identify which organizations dominate in terms of mission frequency and spending.
 
 ![Organization Analysis](screenshots/organization_analysis.png)
+<img width="1402" height="788" alt="Screenshot 2026-02-23 203145" src="https://github.com/user-attachments/assets/e27cf390-ede3-4307-acd6-34cbb92cfebc" />
 
 ---
 
