@@ -1,123 +1,179 @@
 # space-program-data-analysis-powerbi
 
-🚀 Space Program Data Analysis Dashboard (Power BI)
-📌 Project Overview
+# 🚀 Space Program Data Analysis Dashboard (Power BI)
 
-This project presents a comprehensive analysis of global space missions from 1957 to 2022.
-The dataset includes missions conducted by major space organizations such as NASA, SpaceX, US Air Force, RVSN USSR, and other international space agencies.
+## 📌 Project Overview
 
-The Power BI dashboard provides insights into:
+This project analyzes global space missions from 1957 to 2022, including missions conducted by NASA, SpaceX, US Air Force, RVSN USSR, and other major space organizations.
 
-Total missions launched
+The dashboard provides interactive insights into:
 
-Success vs Failure rates
+- Total missions launched
+- Success vs Failure rates
+- Total budget spent by organization
+- Budget spent per mission
+- Launch trends over time
+- Rocket status (Active vs Retired)
 
-Total budget spent by organization
+This project demonstrates data cleaning, transformation, modeling, KPI creation, and data storytelling using Power BI.
 
-Budget spent per mission
+---
 
-Historical launch trends
+## 🛰 Dataset Description
 
-Rocket status (Active vs Retired)
+The dataset includes the following fields:
 
-Mission outcome distribution
+- Company – Launch organization
+- Location – Launch site
+- Date & Time – Mission timestamp
+- Rocket – Rocket name
+- Mission – Mission name
+- Rocket Status – Active / Retired
+- Price – Mission cost (when available)
+- Mission Status – Success / Failure / Partial Failure
 
-This project demonstrates data cleaning, transformation, modeling, and business insight generation using Power BI.
+**Data Coverage:** 1957 – 2022  
+Includes both government and private space programs.
 
-🛰 Dataset Description
+---
 
-The dataset contains historical launch data with the following fields:
+# 📊 Dashboard Walkthrough
 
-Company – Launch organization
+---
 
-Location – Launch site
+## 1️⃣ Executive Overview
 
-Date & Time – Mission timestamp
+This page provides high-level KPIs such as:
 
-Rocket – Rocket name
+- Total Missions
+- Total Budget Spent
+- Overall Success Rate
+- Total Organizations
 
-Mission – Mission name
+It gives a quick snapshot of global space mission performance.
 
-Rocket Status – Active/Retired
+![Executive Overview](screenshots/executive_overview.png)
 
-Price – Mission budget (when available)
+---
 
-Mission Status – Success, Failure, Partial Failure
+## 2️⃣ Organization-Level Analysis
 
-📅 Data coverage: 1957 – 2022
-📊 Includes both government and private space programs.
+This section compares space organizations based on:
 
-📊 Key Business Questions Answered
+- Total Missions Launched
+- Total Budget Spent
+- Success Rate by Organization
+- Budget Allocation Distribution
 
-Which organization has launched the most missions?
+This helps identify which organizations dominate in terms of mission frequency and spending.
 
-What is the overall mission success rate?
+![Organization Analysis](screenshots/organization_analysis.png)
 
-How has mission success evolved over time?
+---
 
-Which organization has spent the highest total budget?
+## 3️⃣ Budget Analysis
 
-What is the average mission cost per organization?
+This section explores:
 
-Are modern missions more successful than early space missions?
+- Budget spent per mission
+- Average mission cost
+- High-cost vs high-success comparison
+- Spending trends over time
 
-What percentage of rockets are retired vs active?
+It provides financial insights into space exploration programs.
 
-📈 Dashboard Features
-🔹 KPI Cards
+![Budget Analysis](screenshots/budget_analysis.png)
 
-Total Missions
+---
 
-Total Budget Spent
+## 4️⃣ Success vs Failure Analysis
 
-Overall Success Rate
+This section analyzes:
 
-Total Organizations
+- Overall mission success rate
+- Failure distribution
+- Partial failures
+- Historical trend of mission reliability
 
-🔹 Organization-Level Analysis
+It highlights how mission success improved over decades.
 
-Budget distribution by company
+![Success vs Failure](screenshots/success_failure.png)
 
-Success rate by organization
+---
 
-Mission count comparison
+## 5️⃣ Time Series Analysis
 
-🔹 Time Series Analysis
+This page visualizes:
 
-Launch trends over decades
+- Launch frequency by year
+- Decade-wise mission growth
+- Trends in private vs government missions
 
-Success vs failure trends over time
+It shows how space activity has evolved over time.
 
-🔹 Mission-Level Insights
+![Launch Trends](screenshots/launch_trends.png)
 
-Budget per mission
+---
 
-Rocket status breakdown
+# 🛠 Tools & Technologies Used
 
-High-cost vs high-success comparison
+- Power BI
+- DAX (Data Analysis Expressions)
+- Power Query
+- Data Modeling (Star Schema)
+- Interactive Dashboard Design
 
-🛠 Tools & Technologies Used
+---
 
-Power BI
+# 🧠 Key Insights
 
-DAX (Data Analysis Expressions)
+- Early space missions had higher failure rates compared to modern missions.
+- Private space companies significantly increased launch frequency after 2010.
+- Mission reliability improved consistently over time.
+- Budget allocation varies significantly across organizations.
 
-Data Cleaning & Transformation (Power Query)
+---
 
-Data Modeling (Star Schema)
+# 📁 Repository Structure
 
-Interactive Dashboard Design
+```
+space-program-data-analysis-powerbi/
+│
+├── dataset/
+│   └── space_missions.csv
+│
+├── screenshots/
+│   ├── executive_overview.png
+│   ├── organization_analysis.png
+│   ├── budget_analysis.png
+│   ├── success_failure.png
+│   └── launch_trends.png
+│
+├── Space_Program_Analysis.pbix
+└── README.md
+```
 
-🧠 Key Insights
+---
 
-Early space missions (1950s–1970s) had significantly higher failure rates compared to modern missions.
+# 🚀 How to Use
 
-Private space companies show higher mission frequency in recent years.
+1. Download the `.pbix` file.
+2. Open it in Power BI Desktop.
+3. Use filters and slicers to explore interactive insights.
 
-Budget allocation varies significantly between government and private organizations.
+---
 
-Mission reliability has improved steadily over decades.
+# 🎯 Skills Demonstrated
 
+- Data Cleaning
+- Handling Missing Values
+- KPI Development
+- Time-Based Analysis
+- Business Insight Generation
+- Dashboard Design
+- Data Storytelling
+
+---
 
 <img width="1413" height="793" alt="Screenshot 2026-02-23 201348" src="https://github.com/user-attachments/assets/712cdfcc-92da-44b8-82e3-cd8ccfef6592" />
 
