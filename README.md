@@ -139,8 +139,6 @@ It shows how space activity has evolved over time.
 # 📁 Repository Structure
 
 ```
-space-program-data-analysis-powerbi/
-│
 ├── dataset/
 │   └── space_missions.csv
 │
